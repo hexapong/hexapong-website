@@ -206,18 +206,11 @@ ul.tri li
       100% {background-color: red;}
     }
 
-
-
-
-
-<<<<<<< HEAD
-=======
-
 .nav-btn {
-    width: 100px;
-    transition: width 2s;
+    transform: scale(1);
+    transition: transform .5s;
+    
 }
 .nav-btn:hover {
-    width: 120px;
+    transform: scale(1.2);
 }
->>>>>>> 54e3434da921c27e4ecb543729f941190fc743cc

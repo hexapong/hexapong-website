@@ -88,7 +88,7 @@
   animation-name: pulse;
 }
 
-@keyframes rubberBand {
+@keyframes rubberBand { 
   from {
     transform: scale3d(1, 1, 1);
   }
