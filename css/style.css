@@ -235,5 +235,5 @@ release-info {
     animation-duration: 1s;
 }
 .zerodelay {
-    animation-delay: -.5s;
+    animation-delay: 0s!important;
 }
