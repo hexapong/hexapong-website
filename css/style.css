@@ -62,14 +62,15 @@ body{
 	font-family: Coda;
 	font-size: 20px;
 	outline: none;
-
+    
 	-webkit-transition-duration: 0.4s; /* Safari */
   	transition-duration: 0.4s;
 }
 
 #playnow:hover {
 	cursor: pointer;
-	background-color: rgba(150, 150, 150, 0.2);
+	background-color: white;
+    color: black;
 }
 
 .clearfix {
