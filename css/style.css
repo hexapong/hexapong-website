@@ -1,10 +1,12 @@
 html, body{
 	margin: 0;
+    height: 100%;
 }
 
 body{
     -webkit-animation: colorchange 50s;
-	background: url("../media/background.png");
+    animation-iteration-count: infinite;
+	background-image: url("../media/background.png") ;
     background-repeat: no-repeat;
     background-size: cover;
 }
