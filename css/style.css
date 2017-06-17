@@ -250,3 +250,13 @@ ul.tri li
 
 
 
+
+
+
+.nav-btn {
+    width: 100px;
+    transition: width 2s;
+}
+.nav-btn:hover {
+    width: 120px;
+}
