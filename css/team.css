@@ -1,0 +1,31 @@
+.team {
+    
+}
+
+.team ul {
+    list-style: none;
+}
+
+.team ul li {
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+
+.name {
+    color: white;
+    font-size: 40px;
+    font-family: Forum;
+    
+    margin: 0;
+    
+    padding: 0;
+}
+
+.description {
+    color: #DEDEDE;
+    font-size: 20px;
+    font-family: Helvetica;
+    
+    margin: 0;    
+}
