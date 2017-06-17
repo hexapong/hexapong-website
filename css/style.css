@@ -240,3 +240,13 @@ ul.tri li
 release-info {
     
 }
+
+#nav {
+    animation-delay: 3s;
+    animation-duration: 1s;
+}
+
+#bild {
+    animation-delay: 4s;
+    animation-duration: 1s;
+}
