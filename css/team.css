@@ -9,7 +9,7 @@
 .team ul li {
     display: inline-block;
     float: left;
-    padding-left: 30px;
+    padding: 50px;
 }
 
 .name {
@@ -28,4 +28,8 @@
     font-family: Helvetica;
     
     margin: 0;    
+}
+
+.name:hover {
+    animation: slideInUp 1s;
 }
