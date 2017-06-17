@@ -13,8 +13,7 @@ button.onclick = function () {
 
 var playbutton = document.getElementById('playbutton');
 var guestbutton = document.getElementById('guest');
-
-playbutton.onclick = function () {
+signinbtn.onclick = function () {
     alert("You need an account");
     
 }

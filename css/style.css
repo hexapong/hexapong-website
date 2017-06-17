@@ -53,6 +53,7 @@ body{
 	padding-left: 35px;
 }
 
+
 #playnow {
 	float: left;
 	margin-top: 20px;
@@ -71,6 +72,7 @@ body{
 	cursor: pointer;
 	background-color: rgba(150, 150, 150, 0.2);
 }
+
 
 .clearfix {
 	clear: both;
