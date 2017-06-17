@@ -76,7 +76,7 @@ body{
 }
 
 .main {
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 
 .main img {
@@ -92,7 +92,7 @@ body{
 	display: block;
 	margin: auto;
     transition: opacity 1s;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
     animation-duration: 1s;
 }
 
@@ -227,11 +227,11 @@ release-info {
 }
 
 #nav {
-    animation-delay: 3s;
+    animation-delay: 1.5s;
     animation-duration: 1s;
 }
 
 #bild {
-    animation-delay: 4s;
+    animation-delay: 2.5s;
     animation-duration: 1s;
 }
