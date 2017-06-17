@@ -78,7 +78,7 @@ body{
 }
 
 .main {
-
+    animation-duration: 3s;
 }
 
 .main img {
@@ -94,8 +94,9 @@ body{
 	background-color: rgba(203, 131, 200, 0.47);
 	display: block;
 	margin: auto;
-
-	transition: opacity 1s;
+    transition: opacity 1s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 
 #box p {
@@ -234,4 +235,8 @@ ul.tri li
 
 #team {
 	text-decoration: underline;
+}
+
+release-info {
+    
 }
