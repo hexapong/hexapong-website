@@ -3,6 +3,7 @@ html, body{
 }
 
 body{
+    -webkit-animation: colorchange 50s;
 	background: url("../media/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,3 +238,15 @@ release-info {
 .zerodelay {
     animation-delay: 0s!important;
 }
+
+@-webkit-keyframes colorchange
+    {
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      75%  {background-color: green;}
+      100% {background-color: red;}
+    }
+
+
+
