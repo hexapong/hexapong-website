@@ -3,7 +3,9 @@ html, body{
 }
 
 body{
-	background-image: url("../media/background.png");
+	background: url("../media/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #welcomebox p {
