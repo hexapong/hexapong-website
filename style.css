@@ -1,0 +1,240 @@
+html, body{
+	margin: 0;
+}
+
+body{
+	background-image: url("https://files.slack.com/files-pri/T2QFA49TJ-F5VJ6EQHM/h4_60_.png");
+}
+
+#welcomebox p {
+	font-family: Syncopate;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+.navhidden {
+	opacity: 0;
+}
+
+.navigation {
+	height: 125px;
+	transition: opacity 1s;
+	transition: height 1s 1s;
+	letter-spacing: 2.5px;
+}
+
+.navgone {
+	height: 0;
+}
+
+.navigation img {
+	width: 100px;
+	padding: 0;
+	padding-right: 50px;
+	float: right;
+}
+
+.navigation ul{
+	list-style: none;
+}
+
+.navigation ul li {
+	display: inline-block;
+	float: left;
+	padding-top: 25px;
+}
+
+
+.navigation ul li a {
+	font-family: Coda;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding-left: 35px;
+
+}
+
+#playnow {
+	float: left;
+	margin-top: 20px;
+	background-color: Transparent;
+	border: 2.5px solid white;
+	color: white;
+	font-family: Coda;
+	font-size: 20px;
+	letter-spacing: 2.5px;
+
+	outline: none;
+
+	-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#playnow:hover {
+	cursor: pointer;
+	background-color: rgba(100, 0, 100, 0.1);
+}
+
+.clearfix {
+	clear: both;
+}
+
+.main {
+
+}
+
+.main img {
+	width: 750px;
+	margin: 0 auto;
+	display: block;
+
+}
+
+#box {
+	width: 400px;
+	height: 50px;
+	background-color: rgba(203, 131, 200, 0.47);
+	display: block;
+	margin: auto;
+
+	transition: opacity 1s;
+}
+
+#box p {
+
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: 'Julius Sans One', sans-serif;
+	padding-top: 13px;
+	text-align: center;
+
+}
+
+.loginbox {
+	border: 1px solid #303030;
+	border-radius: 15px;
+	width: 450px;
+	height: 250px;
+	background-color: hsla(303, 41%, 65%, 0.34);
+	margin: auto;
+	margin-bottom: 50px;
+	margin-top: -50px;
+
+	transition: opacity 0.5s 0.5s ease-in;
+
+	opacity: 0;
+}
+
+.loginshow {
+	opacity: 1;
+}
+
+#welcomebox {
+	border:1px solid #CB83C8;
+	border-radius: 15px 15px 0 0;
+	height: 50px;
+	background-color: #CB83C8;
+}
+
+#nickname {
+	font-size: 20px;
+	text-indent: 20px;
+	width: 90%;
+	height: 20%;
+	margin: 20px 15px 0 15px;
+	background-color: #fff;
+	outline: none;
+	border: 1px solid #303030;
+	border-radius: 5px;
+}
+
+#play {
+	float: left;
+
+	width: 200px;
+	height: 40px;
+
+	margin-top: 40px;
+	margin-left: 15px;
+
+	background-color: #CB79C7;
+
+	border: 1px solid #303030;
+
+	border-radius: 5px;
+
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+
+	cursor: pointer;
+
+	outline: none;
+
+}
+
+#play:hover {
+	background-color: #CA83DC;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#guest {
+	float: right;
+
+	width: 200px;
+	height: 40px;
+
+	margin-top: 40px;
+	margin-right: 15px;
+
+	background-color: #CB79C7;
+
+	border: 1px solid #303030;
+
+	border-radius: 5px;
+
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Montserrat';
+
+	cursor: pointer;
+
+	outline: none;
+
+}
+
+#guest:hover {
+	background-color: #CA83DC;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+
+ul.tri {
+	margin: auto;
+	padding: 30px;
+	display: block;
+	text-align: center;
+}
+
+ul.tri li
+{
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+#team {
+	text-decoration: underline;
+}
