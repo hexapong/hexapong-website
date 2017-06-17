@@ -48,7 +48,7 @@ body{
 .navigation ul li a {
 	font-family: Coda;
 	text-decoration: none;
-	color: white;
+	color: hsl(200, 0%, 90%);
 	font-size: 20px;
 	padding-left: 35px;
 }
@@ -91,11 +91,12 @@ body{
 #box {
 	width: 400px;
 	height: 50px;
-	background-color: rgba(204, 204, 204, 0.47);
+	background-color: rgba(204, 204, 204, 0.1);
 	display: block;
 	margin: auto;
     animation-delay: 1s;
     animation-duration: 1s;
+    border-radius: 5px;
 }
 
 #box p {
@@ -113,7 +114,7 @@ body{
 	border-radius: 15px;
 	width: 450px;
 	height: 250px;
-	background-color: hsla(303, 41%, 65%, 0.34);
+	background-color: hsla(303, 0%, 65%, 0.34);
 	margin: auto;
 	margin-bottom: 50px;
 	margin-top: -50px;
@@ -128,10 +129,10 @@ body{
 }
 
 #welcomebox {
-	border:1px solid #CB83C8;
+	border:1px solid #8c8c8c;
 	border-radius: 15px 15px 0 0;
 	height: 50px;
-	background-color: #CB83C8;
+	background-color: rgba(140, 140, 140, 0.5);
 }
 
 #nickname {
@@ -155,7 +156,7 @@ body{
 	margin-top: 40px;
 	margin-left: 15px;
 
-	background-color: #CB79C7;
+	background-color: rgba(140, 140, 140, 0.5);
 
 	border: 1px solid #303030;
 
@@ -172,7 +173,7 @@ body{
 }
 
 #play:hover {
-	background-color: #CA83DC;
+	background-color: rgb(140, 140, 140);
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -185,7 +186,7 @@ body{
 	margin-top: 40px;
 	margin-right: 15px;
 
-	background-color: #CB79C7;
+	background-color: rgba(140, 140, 140, 0.5);
 
 	border: 1px solid #303030;
 
@@ -202,7 +203,7 @@ body{
 }
 
 #guest:hover {
-	background-color: #CA83DC;
+	background-color: rgb(140, 140, 140);
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 

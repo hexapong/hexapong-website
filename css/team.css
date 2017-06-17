@@ -9,7 +9,8 @@
 .team ul li {
     display: inline-block;
     float: left;
-    padding: 50px;
+    padding-left: 50px;
+    
 }
 
 .name {
@@ -17,9 +18,8 @@
     font-size: 40px;
     font-family: Forum;
     
-    margin: 0;
-    
-    padding: 0;
+     margin: 0 auto;
+    padding-top: 100px;
 }
 
 .description {
@@ -30,6 +30,6 @@
     margin: 0;    
 }
 
-.name:hover {
-    animation: slideInUp 1s;
+.team:before {
+    animation: bounce 1s;
 }
