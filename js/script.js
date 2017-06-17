@@ -5,7 +5,7 @@ button.onclick = function () {
   nav.classList.add('navhidden');
 
   var box = document.getElementById('box');
-  box.classList.add('animated', 'fadeOut');
+  box.classList.add('animated', 'fadeOut', 'zerodelay');
 
   var login = document.getElementById('loginbox');
   login.classList.add('loginshow');
