@@ -20,12 +20,7 @@ body{
 .navigation {
 	height: 125px;
 	transition: opacity 1s;
-	transition: height 1s 1s;
 	letter-spacing: 2.5px;
-}
-
-.navgone {
-	height: 0;
 }
 
 .navigation img {
