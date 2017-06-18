@@ -190,7 +190,8 @@ ul.tri li
 }
 
 #loginbox {
-    vertical-align: middle;
+    align-content: center;
+    text-align: center;
     margin:0 auto;
     background-color: rgba(199,119,204,0.8);
     width: 40%;
@@ -206,13 +207,17 @@ ul.tri li
 }
 
 #hideLoginForm {
+    margin-top:auto;
     cursor: pointer;
+    float: right;
 }
 
 .loginBtn {
-    
+    background-color: grey;
+    color: white;
+    font-family: Helvetica;
+    height: 30
 }
-=======
 table, th, td {
     margin: 0 auto;
     border-collapse: collapse;
@@ -248,4 +253,16 @@ table {
 
 #tabelle, #para {
     animation: fadeInUp 1s;
+}
+
+#guestLogIn {
+    width: 66.6%;
+}
+
+#signUp {
+    width: 33.3%;
+}
+
+#logIn {
+    width: 33.3%;
 }
