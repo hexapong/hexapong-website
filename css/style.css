@@ -201,7 +201,9 @@ ul.tri li
 .loginshow {
 	display: block!important;
 }
+
 #login {
+    
     display: none;
     padding-top: 30%;
 }
@@ -335,5 +337,6 @@ table {
 #screengame {
     width: 500px;
     margin-right: 100px;
+    
     
 }
