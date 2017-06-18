@@ -190,7 +190,8 @@ ul.tri li
 }
 
 #loginbox {
-    vertical-align: middle;
+    align-content: center;
+    text-align: center;
     margin:0 auto;
     background-color: rgba(171, 13, 61, 0.65);
     width: 40%;
@@ -206,12 +207,16 @@ ul.tri li
 }
 
 #hideLoginForm {
+    margin-top:auto;
     cursor: pointer;
     float: right;
 }
 
 .loginBtn {
-    
+    background-color: grey;
+    color: white;
+    font-family: Helvetica;
+    height: 30
 }
 
 table, th, td {
@@ -252,14 +257,13 @@ table {
 }
 
 
-
 #mail {
-    margin-top: 100px;
-    
+    color: white;
 }
 
 #pass {
     margin-top: 20px;
+    
 }
 
 .logininput {
@@ -268,11 +272,54 @@ table {
     color: white;
     font-size: 25px;
     font-family: Helvetica;
-    padding-left: 10px;
+    padding-left: 15px;
     width: 400px;
     outline: none;
+
 }
 
-#loginbutton {
+
+#guestLogIn {
+    width: 66.6%;
+    height: 35px;
     margin-top: 10px;
+    height: 50px;
+    border: 1px solid #95989A;
+}
+
+#signUp {
+    width: 33.3%;
+    height: 50px;
+    border: 1px solid #95989A;
+}
+
+#logIn {
+    width: 33.3%;
+    border: 1px solid #95989A;
+    background-color: #C777CC;
+    height: 50px;
+}
+
+.loginBtn {
+    font-size: 20px;
+}
+
+#loginBtn {
+    background-color: #F84800;
+    width: 90%;
+    height: 50px;
+    margin-top: 30px;
+    outline: none;
+    border: 1px solid #95989A;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+#welcome {
+    font-size: 40px;
+    color: white;
+    font-family: Helvetica;
 }
