@@ -10,10 +10,3 @@ button.onclick = function () {
   var login = document.getElementById('loginbox');
   login.classList.add('loginshow');
 }
-
-var playbutton = document.getElementById('playbutton');
-var guestbutton = document.getElementById('guest');
-signinbtn.onclick = function () {
-    alert("You need an account");
-    
-}
