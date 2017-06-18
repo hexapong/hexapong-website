@@ -324,3 +324,16 @@ table {
     color: white;
     font-family: Helvetica;
 }
+
+#about {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Coda;
+}
+
+#screengame {
+    width: 500px;
+    margin-right: 100px;
+    
+}
