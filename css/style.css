@@ -216,7 +216,14 @@ ul.tri li
     background-color: grey;
     color: white;
     font-family: Helvetica;
-    height: 30
+    height: 5%
+}
+
+.loginBtn:active {
+    background-color: hotpink;
+    color: white;
+    font-family: Helvetica;
+    height: 5%
 }
 table, th, td {
     margin: 0 auto;
