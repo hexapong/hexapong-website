@@ -176,8 +176,6 @@ ul.tri li
 .nav-btn:hover {
     transform: scale(1.2);
 }
-
-<<<<<<< HEAD
 #loginBackground {
     text-align: center;
     position: fixed; 
@@ -251,5 +249,3 @@ table {
 #tabelle, #para {
     animation: fadeInUp 1s;
 }
-
->>>>>>> 461ccf82a40faeb33f39333edbf72bdff99aab43
