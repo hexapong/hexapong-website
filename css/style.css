@@ -142,6 +142,10 @@ ul.tri li
 	text-decoration: underline;
 }
 
+#scoreboard {
+	text-decoration: underline;
+}
+
 #nav {
     animation-delay: 0s;
     animation-duration: 1s;
@@ -173,6 +177,7 @@ ul.tri li
     transform: scale(1.2);
 }
 
+<<<<<<< HEAD
 #loginBackground {
     text-align: center;
     position: fixed; 
@@ -209,3 +214,42 @@ ul.tri li
 .loginBtn {
     
 }
+=======
+table, th, td {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: Coda;
+}
+
+tr {
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+tr:hover {
+    transform: scale(1.2);
+}
+
+table {
+    height: 70%;
+}
+
+.table p {
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Coda;
+}
+
+#tabelle, #para {
+    animation: fadeInUp 1s;
+}
+
+>>>>>>> 461ccf82a40faeb33f39333edbf72bdff99aab43
