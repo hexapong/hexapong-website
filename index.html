@@ -35,19 +35,23 @@
 	<p>Available on PC, Mac and Linux!</p>
 </div>
 </div>
-    
-
-<div class="loginbox" id="loginbox">
-	
-	<input type="text" id="nickname" placeholder="Enter nickname..."/>
-	<button class="play" id="playbutton" type="button" name="play">
-    <img src="media/play.png" id="spielen" alt="Play">
-    </button>
-	<button class="play" type="button" name="playasguest" id="guest">
-    <img src="media/guest.png" id="gast" alt="Play as guest">
-    </button>
-
+ 
+<div id="login">
+     <div id="loginBackground">
+<div id="loginbox">
+        <span id="hideLoginForm">&times;</span>
+        <button id="logIn">Sign In</button>
+        <button id="signUp">Sign Up</button>
+        <button id="guestLogIn">Play as guest</button>
+        <form>
+            <input name="E-Mail" type="text" placeholder="E-Mail">
+            <input name="password" type="password" placeholder="password">
+            <button id="loginBtn" name="Login" type="submit">Login</button>
+        </form>
+    </div>
 </div>
+</div>
+
 
 
 

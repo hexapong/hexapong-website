@@ -1,19 +1,19 @@
-var button = document.getElementById('playnow');
+var buttonShow = document.getElementById('playnow');
+var buttonHide = document.querySelector('#hideLoginForm');
 
-button.onclick = function () {
+buttonShow.onclick = function () {
   var nav = document.getElementById('nav');
   nav.classList.add('animated', 'fadeOut', 'zerodelay');
 
   var box = document.getElementById('box');
   box.classList.add('animated', 'fadeOut', 'zerodelay');
 
-  var login = document.getElementById('loginbox');
-  login.classList.add('loginshow');
+  var login = document.getElementById('login');
+  login.classList.add('loginshow', 'animated', 'fadeIn', 'zerodelay');
 }
 
-var playbutton = document.getElementById('playbutton');
-var guestbutton = document.getElementById('guest');
-signinbtn.onclick = function () {
-    alert("You need an account");
+buttonHide.onclick = function () {
     
+    document.querySelector('#nav', '#box').classList.remove('fadeOut');
+    document.querySelector('#login').classList.remove('loginshow');
 }
