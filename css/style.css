@@ -210,6 +210,7 @@ ul.tri li
     margin-top:auto;
     cursor: pointer;
     float: right;
+    
 }
 
 .loginBtn {
@@ -268,7 +269,7 @@ table {
 
 .logininput {
     background-color: rgba(152, 152, 152, 0.35);
-    border: 1px solid #95989A;
+    border: none;
     color: white;
     font-size: 25px;
     font-family: Helvetica;
@@ -284,7 +285,7 @@ table {
     height: 35px;
     margin-top: 10px;
     height: 50px;
-    border: 1px solid #95989A;
+    border: none;
 }
 
 #signUp {
@@ -295,7 +296,7 @@ table {
 
 #logIn {
     width: 33.3%;
-    border: 1px solid #95989A;
+    border: none;
     background-color: #C777CC;
     height: 50px;
 }
@@ -310,7 +311,7 @@ table {
     height: 50px;
     margin-top: 30px;
     outline: none;
-    border: 1px solid #95989A;
+    border: none;
     color: white;
     font-size: 45px;
     text-align: center;
